@@ -15,12 +15,16 @@
 <header class="container-fluid">
   <div><img class="logo" src="/img/Logo.jpg"logo">
   </div> 
-      <nav> 
-      <ul class="menu">
+      <nav class="nav-menu"> 
+        <input type="checkbox" id="checkbox">
+        <label for="check" class="checkbtn">
+          <i class="menu-icon"><img src="img/vecteezy_hamburger-menu-filled-icon-in-transparent-background-basic_21190402.jpg"  alt=""></i>
+        </label>        
+        <ul>
           <li><a href="../index.html">Inicio</a></li>
           <li>
             <a href="./pages/productos.html">Productos</a>
-            <ul>
+            <ul class="sub-menu">
               <li><a href="./pages/Raquetas.html">Raquetas</a></li>
               <li><a href="./pages/Bolsos.html">Bolsos</a></li>
               <li><a href="./accesorios.html">Accesorios</a></li>
@@ -29,10 +33,7 @@
           <li><a href="./pages/ofertas.html">Ofertas</a></li>
           <li><a href="./pages/carrito.html">Carrito</a></li>
           <li><a href="./pages/contacto.html">Contacto</a></li> 
-        <form class="d-flex" role="buscar">
-            <input class="form-control me-2" type="buscar" placeholder="buscar" aria-label="buscar">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
+       
      </ul>
 </nav>  
 </header>
