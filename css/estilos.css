@@ -111,10 +111,13 @@ header nav ul li{
     
 }
 
-.navbar-nav{
+header nav ul{
     background-color: rgb(4, 149, 222);
-}
+   }
 
+#navbarSupportedContent{
+    width: 100%;
+}
 
 /*SUB INDICE*/
 
