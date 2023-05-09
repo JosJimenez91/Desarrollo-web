@@ -111,21 +111,7 @@ header nav ul li{
     
 }
 
-.menu-icon img{
-width: 30px;
-height: 30px;
-border-radius: 2px;
- }
-
-.menu-icon, #checkbox{
-display: none;
-}
-
- /*MEDIA QUERYS*/
-
-@media (max-width: 576px) {
-    
-    .checkbtn{
+.checkbtn{
         display: block ;
         left: 20px;
     }
@@ -141,7 +127,7 @@ display: none;
         right: 20px;
         cursor: pointer; 
     }
-    .nav-menu ul {
+    .nav-navbar-nav ul {
         display: block; 
         position: fixed;
         top: 70px;
@@ -161,7 +147,7 @@ display: none;
     transition: all .25s;
     }
     
-}
+
 
 
 /*SUB INDICE*/

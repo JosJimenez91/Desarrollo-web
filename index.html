@@ -13,30 +13,45 @@
 
 <!--indice-->
 <header class="container-fluid">
-  <div><img class="logo" src="../img/Logo.jpg"logo">
+  <div>
+    <img class="logo" src="../img/Logo.jpg"logo">
   </div> 
-      <nav class="nav-menu"> 
-        <input type="checkbox" id="checkbox">
-        <label for="check" class="checkbtn">
-          <i class="menu-icon"><img src="img/vecteezy_hamburger-menu-filled-icon-in-transparent-background-basic_21190402.jpg"  alt=""></i>
-        </label>        
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li>
-            <a href="./pages/productos.html">Productos</a>
-            <ul class="sub-menu">
-              <li><a href="./pages/raquetas.html">Raquetas</a></li>
-              <li><a href="./pages/bolsos.html" >Bolsos</a></li>
-              <li><a href="./accesorios.html">Accesorios</a></li>
-            </ul>
-          </li>
-          <li><a href="./pages/ofertas.html">Ofertas</a></li>
-          <li><a href="./pages/carrito.html">Carrito</a></li>
-          <li><a href="./pages/contacto.html">Contacto</a></li> 
-       
-     </ul>
-</nav>  
-</header>
+    <nav class="navbar navbar-expand-lg bg-transparent row">
+      <div class="container-fluid col-12">
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./pages/ofertas.html "">Ofertas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./pages/productos.html">Productos</a>
+              <ul>
+                <li><a class="nav-link text-light" href="./pages/raquetas.html">Raquetas</a></li>
+                <li><a class="nav-link text-light" href="./pages/bolsos.html">Bolsos</a></li>
+                <li><a class="nav-link text-light" href="./pages/accesorios.html">Accesorios</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./pages/carrito.html">Carrito</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./pages/contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
 
 <main class="banner">
  <section class="container-fluid">
