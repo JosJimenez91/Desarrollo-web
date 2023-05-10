@@ -85,7 +85,6 @@ header{
 header nav{ 
     display: flex;
     font-size: 21px;
-    justify-content: ;
     width: 100%;
     align-items: center;
 }
@@ -118,6 +117,16 @@ header nav ul{
 #navbarSupportedContent{
     width: 100%;
 }
+
+/* ajuste en el fomrualrio de busqueda */
+.search{
+    position: absolute;
+    right: 0;
+    align-self: center;
+
+}
+
+
 
 /*SUB INDICE*/
 
@@ -375,6 +384,10 @@ display: flex;
 flex-direction: column;
 }
 
+.container{
+    padding-top: 40px;
+}
+
 #carrito .contenedorBotones button{
     margin-bottom: 10px;
 }
@@ -440,36 +453,48 @@ footer div ol a{
 
 /*MEDIA QUERYS*/
 
-@media (max-width: 576px) {
-    
-    .checkbtn{
-        display: block ;
+
+
+@media (min-width:950px) and (max-width: 1350px) {
+    .search input{
+        width: 150px;
     }
-    .menu-icon{
-        display: block;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        cursor: pointer; 
+}
+
+
+/* Ajustes para el menu hamburguesa */
+
+@media (max-width: 950px) {
+
+    .navbar-collapse{
+        position: absolute;
+
     }
-    .nav-menu ul{
-        display: block; 
-        position: fixed;
-        top: 70px;
-        left: -100%;
-        width: 100%;
-        height: 100vh;
-        background: rgb(4, 149, 222);
-        right: 0;
-    }   
-    .nav-menu ul li{
-        padding: 2rem;
+    .navbar-nav{
+    width: 100vw;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    }
+    .navbar-toggler{
+        z-index: 30000;
+
+    }
+
+    .nav-item-with-subpages{
         display: flex;
-        justify-content: center;
-        margin: 0;
+        flex-direction: row;
+        gap: 20px;
     }
-#check:checked ~ ul{  
-        left: 0;
-        transition: all .25s;
+
+    .subpages {
+        position: inherit;
+    }
+    .search{
+        position: initial;
+        padding-left: 20px;
+        align-self: flex-start;
     }
 }

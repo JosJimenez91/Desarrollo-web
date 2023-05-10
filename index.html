@@ -22,16 +22,18 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+         
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex ">
+            
             <li class="nav-item">
               <a class="nav-link active text-light" aria-current="page" href="index.html">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-light" href="pages/ofertas.html "">Ofertas</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav-item-with-subpages">
               <a class="nav-link text-light" href="pages/productos.html">Productos</a>
-              <ul>
+              <ul class="subpages">
                 <li><a class="nav-link text-light" href="pages/raquetas.html">Raquetas</a></li>
                 <li><a class="nav-link text-light" href="pages/bolsos.html">Bolsos</a></li>
                 <li><a class="nav-link text-light" href="pages/accesorios.html">Accesorios</a></li>
@@ -43,11 +45,12 @@
             <li class="nav-item">
               <a class="nav-link text-light" href="pages/contacto.html">Contacto</a>
             </li>
+            <form class="d-flex search" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
           </ul>
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Search</button>
-          </form>
+
         </div>
       </div>
     </nav>

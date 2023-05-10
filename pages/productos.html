@@ -16,22 +16,24 @@
       <div>
         <img class="logo" src="../img/Logo.jpg"logo">
       </div> 
-        <nav class="navbar navbar-expand-lg bg-transparent row">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid col-12">
               <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex ">
+                
                 <li class="nav-item">
                   <a class="nav-link active text-light" aria-current="page" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link text-light" href="ofertas.html "">Ofertas</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item nav-item-with-subpages">
                   <a class="nav-link text-light" href="productos.html">Productos</a>
-                  <ul>
+                  <ul class="subpages">
                     <li><a class="nav-link text-light" href="raquetas.html">Raquetas</a></li>
                     <li><a class="nav-link text-light" href="bolsos.html">Bolsos</a></li>
                     <li><a class="nav-link text-light" href="accesorios.html">Accesorios</a></li>
@@ -43,15 +45,18 @@
                 <li class="nav-item">
                   <a class="nav-link text-light" href="contacto.html">Contacto</a>
                 </li>
+                <form class="d-flex search" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
               </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light" type="submit">Search</button>
-              </form>
+    
             </div>
           </div>
         </nav>
       </header>
+  
+
     
   
     <!--conteindo principal-->    
