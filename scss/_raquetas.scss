@@ -1,0 +1,37 @@
+/*MAIN paginas RAQUETAS */
+
+#raquetas{
+    font-size: medium;
+    height: 100%;
+
+.raquetas{
+    color: black;   
+    
+    h2{
+        color: rgb(0, 42, 116);
+        list-style-type: none;
+        text-align: left;
+        list-style-type: circle;
+        list-style-image: url(../img/comprobado.png);
+     }
+.img_raquetas{
+    width: 150px;
+    height: 150px;
+}
+
+
+h3{
+    color: rgb(255, 3, 3);
+    list-style-type: circle;
+    list-style-image: url(../img/comprobado.png);
+}
+.button{
+    background-color: darkorange;
+    margin: 5px 0px;
+    padding: 10px 5px;
+    font-size: medium;
+    font-weight: bold;   
+    align-items: end;
+    }
+}
+}

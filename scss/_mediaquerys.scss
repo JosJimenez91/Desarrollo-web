@@ -1,0 +1,47 @@
+/*MEDIA QUERYS*/
+
+
+
+@media (min-width:950px) and (max-width: 1350px) {
+    .search input{
+        width: 150px;
+    }
+}
+
+
+/* Ajustes para el menu hamburguesa */
+
+@media (max-width: 950px) {
+
+    .navbar-collapse{
+    
+
+    }
+    .navbar-nav{
+    width: 100vw;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    }
+    .navbar-toggler{
+        z-index: 30000;
+
+    }
+
+    .nav-item-with-subpages{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .subpages {
+        position: inherit;
+    }
+    .search{
+        position: initial;
+        padding-left: 20px;
+        align-self: flex-start;
+    }
+}

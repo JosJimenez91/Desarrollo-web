@@ -1,0 +1,33 @@
+/*MAIN pagina ACCESORIOS*/
+
+#accesorios{
+    display: flex;
+    flex-direction: row;
+
+
+.accesorios{
+    color: black;
+
+}
+
+.img_accesorios{
+    width: 150px;
+    height: 150px;
+}
+
+h2{
+    color: rgb(0, 42, 116);
+    list-style-type: none;
+    text-align: left;
+    list-style-type: circle;
+    list-style-image: url(../img/comprobado.png);
+}
+.button{
+    background-color: darkorange;
+    margin: 5px 0px;
+    padding: 10px 5px;
+    font-size: medium;
+    font-weight: bold;   
+    align-items: end;
+    }
+}
