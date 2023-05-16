@@ -13,10 +13,11 @@
 
 @media (max-width: 950px) {
 
-    .navbar-collapse{
+    #navbarSupportedContent{ width: 100%; }
     
+    .navbar-collapse
+   
 
-    }
     .navbar-nav{
     width: 100vw;
     position: absolute;
@@ -43,5 +44,6 @@
         position: initial;
         padding-left: 20px;
         align-self: flex-start;
+        
     }
 }

@@ -341,7 +341,10 @@ aside .card {
 }
 /* Ajustes para el menu hamburguesa */
 @media (max-width: 950px) {
-  .navbar-nav {
+  #navbarSupportedContent {
+    width: 100%;
+  }
+  .navbar-collapse .navbar-nav {
     width: 100vw;
     position: absolute;
     right: 0;
