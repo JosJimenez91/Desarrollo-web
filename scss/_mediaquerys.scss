@@ -15,7 +15,9 @@
 
     #navbarSupportedContent{ width: 100%; }
     
-    .navbar-collapse
+    .navbar-collapse{
+        position: absolute;
+    }
    
 
     .navbar-nav{
@@ -46,4 +48,7 @@
         align-self: flex-start;
         
     }
-}
+    .search{
+        margin-top: 20px;
+    }
+  }

@@ -91,7 +91,6 @@ header nav .btn {
   color: white;
 }
 header nav .search {
-  position: absolute;
   right: 0;
   align-self: center;
 }
@@ -344,7 +343,10 @@ aside .card {
   #navbarSupportedContent {
     width: 100%;
   }
-  .navbar-collapse .navbar-nav {
+  .navbar-collapse {
+    position: absolute;
+  }
+  .navbar-nav {
     width: 100vw;
     position: absolute;
     right: 0;
@@ -367,5 +369,8 @@ aside .card {
     position: initial;
     padding-left: 20px;
     align-self: flex-start;
+  }
+  .search {
+    margin-top: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
