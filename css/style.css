@@ -283,13 +283,13 @@ header nav .search {
   height: 35px;
 }
 .container .contenedorProducto__img {
+  width: 100px;
+  height: 100px;
   display: inline-block;
   vertical-align: middle;
-  width: 20px;
-  height: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
 }
 .container #carrito {
   width: 90%;
@@ -300,12 +300,12 @@ header nav .search {
   margin: 10px auto;
   border: 2px solid;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   color: black;
 }
 .container #carrito .contenedorProducto .contenedorPrice h3 {
-  font-size: medium;
+  font-size: bold;
 }
 .container #carrito .contenedorProducto .contenedorBotones__eliminar {
   background-color: rgb(219, 28, 28);
@@ -316,6 +316,7 @@ header nav .search {
 .container #carrito .contenedorProducto .contenedorBotones {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .container #carrito .contenedorProducto #carrito .contenedorBotones button {
   margin-bottom: 10px;

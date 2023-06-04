@@ -10,16 +10,18 @@
         border: 1px solid rgb(0, 0, 0);
         width: 100px;
         height: 35px;
-    }
-.contenedorProducto__img{
+        }
+
+.contenedorProducto__img {
+        width: 100px;
+        height: 100px;
         display: inline-block;
-        vertical-align: middle;
-        width: 20px;
-        height: 20px;
+        vertical-align: middle;       
         display: flex;
         flex-direction: column;
-        justify-content:left
+        justify-content:center;
     }
+
 #carrito{
     width: 90%;
     grid-area: carrito;
@@ -29,18 +31,20 @@
         margin: 10px auto;
         border: 2px solid;
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: center;
         color: black;
-   
+
     
 
 
 .contenedorPrice h3{
-    font-size: medium;
+   font-size: bold;
+  
 }
 
 .contenedorBotones__eliminar {
+
     background-color: rgb(219, 28, 28);
     border: 2px solid rgb(0, 0, 0);
     width: 100px;
@@ -50,6 +54,7 @@
 .contenedorBotones{
 display: flex;
 flex-direction: column;
+justify-content: center;
 }
 
 #carrito .contenedorBotones button{
