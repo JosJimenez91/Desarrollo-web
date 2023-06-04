@@ -1,41 +1,33 @@
 /*MAIN pagina Carrito*/
-
 .container{
     padding-top: 40px;
-    .h1{
-        grid-area: titulo;
-    }
-    .pagar{
-        background-color: rgb(203, 114, 12);
-        border: 1px solid rgb(0, 0, 0);
-        width: 100px;
-        height: 35px;
-        }
-
-.contenedorProducto__img {
-        width: 100px;
-        height: 100px;
-        display: inline-block;
-        vertical-align: middle;       
-        display: flex;
-        flex-direction: column;
-        justify-content:center;
-    }
 
 #carrito{
     width: 90%;
     grid-area: carrito;
- 
-    .contenedorProducto{
-        padding: 20px 50px;
-        margin: 10px auto;
-        border: 2px solid;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        color: black;
 
-    
+.contenedorProducto{
+padding: 20px 50px;
+margin: 10px auto;
+border: 2px solid;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: black;
+
+.h1{
+grid-area: titulo;
+}
+
+.contenedorProducto__img {
+width: 100px;
+height: 100px;
+display: inline-block;
+vertical-align: middle;       
+display: flex;
+flex-direction: column;
+justify-content:center;
+}
 
 
 .contenedorPrice h3{
@@ -63,6 +55,12 @@ justify-content: center;
 }
 }
 }
+.pagar{
+    background-color: rgb(203, 114, 12);
+    border: 1px solid rgb(0, 0, 0);
+    width: 100px;
+    height: 35px;
+    }
 aside {
     grid-area: precio;
     width: 90%;
