@@ -4,20 +4,16 @@
 
 #carrito{
     width: 90%;
-    grid-area: carrito;
-
+   
 .contenedorProducto{
 padding: 20px 50px;
 margin: 10px auto;
 border: 2px solid;
 display: flex;
-flex-direction: column;
-justify-content: center;
+flex-direction: row;
+justify-content: space-between;
 color: black;
 
-.h1{
-grid-area: titulo;
-}
 
 .contenedorProducto__img {
 width: 100px;
@@ -25,8 +21,8 @@ height: 100px;
 display: inline-block;
 vertical-align: middle;       
 display: flex;
-flex-direction: column;
-justify-content:center;
+flex-direction: row;
+
 }
 
 
@@ -41,12 +37,12 @@ justify-content:center;
     border: 2px solid rgb(0, 0, 0);
     width: 100px;
     height: 35px;
-}
+    display: flex;
+    }
 
 .contenedorBotones{
 display: flex;
 flex-direction: column;
-justify-content: center;
 }
 
 #carrito .contenedorBotones button{
@@ -54,7 +50,7 @@ justify-content: center;
 }
 }
 }
-}
+
 .pagar{
     background-color: rgb(203, 114, 12);
     border: 1px solid rgb(0, 0, 0);
@@ -70,6 +66,7 @@ aside {
 .card{
     padding: 20px;
     color: black;
+}
 }
 }
 

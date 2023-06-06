@@ -1,12 +1,27 @@
-.main {
-    display: flex;
-    height: 100vh;
+.mensaje{
+  
+  align-content: center;
+
+
+
+
+.contacto{
+text-align: center;
+font-weight: bold;
+}
 .formulario {
-        width: 400px;
+        align-content: center;
+        margin-top: 2vh;
+        width: 600px;
         padding: 20px;
         background-color: #f2f2f2;
         border-radius: 5px;
-
+input{
+  width: 520px;
+}
+textarea{
+  width: 560px;
+}
 .contacto {
 text-align: center; 
 color: rgb(0, 0, 0); 
@@ -18,11 +33,11 @@ color: rgb(0, 0, 0);
     width: 100%;
     padding: 10px;
     margin-top: 10px;
-    background-color: #4CAF50;
+    background-color: darkorange;
     color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    
   }
 }
 }

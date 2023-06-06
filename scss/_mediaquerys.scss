@@ -3,9 +3,10 @@
 
 
 @media (min-width:950px) and (max-width: 1350px) {
-    .search input{
-        width: 150px;
-    }
+.search input{
+    width: 150px;
+}
+
 }
 
 
@@ -19,6 +20,7 @@
         position: absolute;
     }
    
+ 
 
     .navbar-nav{
     width: 100vw;
@@ -51,4 +53,11 @@
     .search{
         margin-top: 20px;
     }
-  }
+    
+   
+    .contenedorProducto{
+        display: flex;
+        flex-direction: column
+    }
+}
+

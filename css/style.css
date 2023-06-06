@@ -15,8 +15,6 @@ body {
 }
 body main {
   margin-top: 110px;
-  width: -moz-max-content;
-  width: max-content;
 }
 
 /*HEADER*/
@@ -248,6 +246,7 @@ header nav .search {
 }
 #accesorios .accesorios {
   color: black;
+  min-height: 300px;
 }
 #accesorios .img_accesorios {
   width: 150px;
@@ -266,7 +265,6 @@ header nav .search {
   padding: 10px 5px;
   font-size: medium;
   font-weight: bold;
-  align-items: end;
 }
 
 /*MAIN pagina Carrito*/
@@ -275,19 +273,15 @@ header nav .search {
 }
 .container #carrito {
   width: 90%;
-  grid-area: carrito;
 }
 .container #carrito .contenedorProducto {
   padding: 20px 50px;
   margin: 10px auto;
   border: 2px solid;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   color: black;
-}
-.container #carrito .contenedorProducto .h1 {
-  grid-area: titulo;
 }
 .container #carrito .contenedorProducto .contenedorProducto__img {
   width: 100px;
@@ -295,8 +289,7 @@ header nav .search {
   display: inline-block;
   vertical-align: middle;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
 }
 .container #carrito .contenedorProducto .contenedorPrice h3 {
   font-size: bold;
@@ -306,41 +299,76 @@ header nav .search {
   border: 2px solid rgb(0, 0, 0);
   width: 100px;
   height: 35px;
+  display: flex;
 }
 .container #carrito .contenedorProducto .contenedorBotones {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 .container #carrito .contenedorProducto #carrito .contenedorBotones button {
   margin-bottom: 10px;
 }
-
-.pagar {
+.container .pagar {
   background-color: rgb(203, 114, 12);
   border: 1px solid rgb(0, 0, 0);
   width: 100px;
   height: 35px;
 }
-
-aside {
+.container aside {
   grid-area: precio;
   width: 90%;
   margin: 10px 0;
   border: 2px solid;
 }
-aside .card {
+.container aside .card {
   padding: 20px;
   color: black;
 }
 
 .nosotros {
-  margin-top: 15vh;
-  display: flex;
+  margin-top: 12vh;
   font-size: large;
   font-weight: bold;
-  justify-content: center;
   color: blue;
+}
+.nosotros p {
+  line-height: 47px;
+}
+
+.mensaje {
+  align-content: center;
+}
+.mensaje .contacto {
+  text-align: center;
+  font-weight: bold;
+}
+.mensaje .formulario {
+  align-content: center;
+  margin-top: 2vh;
+  width: 600px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+.mensaje .formulario input {
+  width: 520px;
+}
+.mensaje .formulario textarea {
+  width: 560px;
+}
+.mensaje .formulario .contacto {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.mensaje .formulario .button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: darkorange;
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 
 /*MEDIA QUERYS*/
@@ -383,5 +411,9 @@ aside .card {
   }
   .search {
     margin-top: 20px;
+  }
+  .contenedorProducto {
+    display: flex;
+    flex-direction: column;
   }
 }/*# sourceMappingURL=style.css.map */
