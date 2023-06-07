@@ -1,12 +1,14 @@
 /*MEDIA QUERYS*/
-    @media (max-width: 950px) {
+    @media (max-width: 950px) and (max-width: 1350px) {
 
         .search input{
             width: 150px;
         }
     /* Ajustes para el menu hamburguesa */  
 
-        #navbarSupportedContent{ width: 100%; }
+        #navbarSupportedContent{ 
+            width: 100%; 
+        }
         
         .navbar-collapse{
             position: absolute;
@@ -31,17 +33,15 @@
         }
     
         .subpages {
-            position: inherit;
+            position: relative;
         }
         .search{
             position: initial;
             padding-left: 20px;
             align-self: flex-start;
-            
-        }
-        .search{
             margin-top: 20px;
-        }
+            
+        }        
 
      /* Ajustes para el carrito */
 
@@ -59,4 +59,5 @@
     flex-direction: column;
 }
 }
+
 

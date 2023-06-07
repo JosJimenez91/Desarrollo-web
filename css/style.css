@@ -379,7 +379,7 @@ header nav .search {
 }
 
 /*MEDIA QUERYS*/
-@media (max-width: 950px) {
+@media (max-width: 950px) and (max-width: 1350px) {
   .search input {
     width: 150px;
   }
@@ -407,14 +407,12 @@ header nav .search {
     gap: 20px;
   }
   .subpages {
-    position: inherit;
+    position: relative;
   }
   .search {
     position: initial;
     padding-left: 20px;
     align-self: flex-start;
-  }
-  .search {
     margin-top: 20px;
   }
   /* Ajustes para el carrito */
