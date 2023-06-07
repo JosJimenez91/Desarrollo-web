@@ -330,6 +330,11 @@ header nav .search {
   margin: 10px 0;
   border: 2px solid;
 }
+.container aside .total {
+  color: rgb(219, 28, 28);
+  font-size: larger;
+  font-weight: bolder;
+}
 .container aside .card {
   padding: 20px;
   color: black;

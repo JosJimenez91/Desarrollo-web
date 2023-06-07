@@ -18,6 +18,7 @@ justify-content: space-between;
 color: black;
 
 
+
 .contenedorProducto__img {
 width: 100px;
 height: 100px;
@@ -69,6 +70,12 @@ aside {
     margin: 10px 0;
     border: 2px solid;
 
+   .total{
+    color: rgb(219, 28, 28);
+    font-size: larger;
+    font-weight: bolder;
+   }
+    
 .card{
     padding: 20px;
     color: black;
