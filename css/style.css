@@ -335,14 +335,7 @@ header nav .search {
   line-height: 47px;
 }
 
-.mensaje {
-  align-content: center;
-}
-.mensaje .contacto {
-  text-align: center;
-  font-weight: bold;
-}
-.mensaje .formulario {
+.formulario {
   align-content: center;
   margin-top: 2vh;
   width: 600px;
@@ -350,17 +343,17 @@ header nav .search {
   background-color: #f2f2f2;
   border-radius: 5px;
 }
-.mensaje .formulario input {
+.formulario input {
   width: 520px;
 }
-.mensaje .formulario textarea {
+.formulario textarea {
   width: 560px;
 }
-.mensaje .formulario .contacto {
+.formulario .contacto {
   text-align: center;
   color: rgb(0, 0, 0);
 }
-.mensaje .formulario .button {
+.formulario .button {
   display: block;
   width: 100%;
   padding: 10px;
@@ -372,13 +365,11 @@ header nav .search {
 }
 
 /*MEDIA QUERYS*/
-@media (min-width: 950px) and (max-width: 1350px) {
+@media (max-width: 950px) {
   .search input {
     width: 150px;
   }
-}
-/* Ajustes para el menu hamburguesa */
-@media (max-width: 950px) {
+  /* Ajustes para el menu hamburguesa */
   #navbarSupportedContent {
     width: 100%;
   }
@@ -412,7 +403,13 @@ header nav .search {
   .search {
     margin-top: 20px;
   }
+  /* Ajustes para el carrito */
   .contenedorProducto {
+    display: flex;
+    flex-direction: column;
+  }
+  /* Ajustes para el menu formulario */
+  .formulario {
     display: flex;
     flex-direction: column;
   }
