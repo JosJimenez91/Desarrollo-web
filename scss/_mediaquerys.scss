@@ -1,8 +1,4 @@
 /*MEDIA QUERYS*/
-
-    
-
-    
     @media (max-width: 950px) {
 
         .search input{
@@ -26,8 +22,7 @@
         }
         .navbar-toggler{
             z-index: 30000;
-    
-        }
+         }
     
         .nav-item-with-subpages{
             display: flex;
@@ -47,11 +42,13 @@
         .search{
             margin-top: 20px;
         }
+
      /* Ajustes para el carrito */
-        .contenedorProducto{
-            display: flex;
-            flex-direction: column
-        }
+
+.contenedorProducto{
+    display: flex;
+    flex-direction: column
+    }
 
 
 
@@ -61,6 +58,5 @@
     display: flex;
     flex-direction: column;
 }
-
-    }
+}
 

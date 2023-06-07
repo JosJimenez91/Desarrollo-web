@@ -6,7 +6,8 @@
 
 .accesorios{
     color: black;
-    min-height: 300px;
+    min-height: 300px
+    
 
 }
 
@@ -22,14 +23,17 @@ h2{
     list-style-type: circle;
     list-style-image: url(../img/comprobado.png);
 }
+
+.datos{
+min-height: 180px;
+}
+
 .button{
     background-color: darkorange;
     margin: 5px 0px;
     padding: 10px 5px;
     font-size: medium;
     font-weight: bold;
-       
-    
- 
+
 }
 }

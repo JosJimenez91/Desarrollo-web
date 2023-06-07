@@ -160,6 +160,9 @@ header nav .search {
   width: 150px;
   height: 150px;
 }
+#productos_todos .producto .datos {
+  min-height: 180px;
+}
 #productos_todos .producto ul {
   text-align: left;
 }
@@ -259,6 +262,9 @@ header nav .search {
   list-style-type: circle;
   list-style-image: url(../img/comprobado.png);
 }
+#accesorios .datos {
+  min-height: 180px;
+}
 #accesorios .button {
   background-color: darkorange;
   margin: 5px 0px;
@@ -274,12 +280,14 @@ header nav .search {
 .container #carrito {
   width: 90%;
 }
+.container #carrito .row {
+  width: auto;
+}
 .container #carrito .contenedorProducto {
   padding: 20px 50px;
   margin: 10px auto;
   border: 2px solid;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   color: black;
 }
@@ -304,6 +312,8 @@ header nav .search {
 .container #carrito .contenedorProducto .contenedorBotones {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  min-height: 70px;
 }
 .container #carrito .contenedorProducto #carrito .contenedorBotones button {
   margin-bottom: 10px;
@@ -326,10 +336,13 @@ header nav .search {
 }
 
 .nosotros {
-  margin-top: 12vh;
+  align-content: center;
+  padding: 20px;
+  margin-top: 10vh;
   font-size: large;
   font-weight: bold;
   color: blue;
+  background-color: #e4e3e3;
 }
 .nosotros p {
   line-height: 47px;
@@ -340,7 +353,7 @@ header nav .search {
   margin-top: 2vh;
   width: 600px;
   padding: 20px;
-  background-color: #f2f2f2;
+  background-color: #ece9e9;
   border-radius: 5px;
 }
 .formulario input {

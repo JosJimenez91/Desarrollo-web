@@ -4,13 +4,16 @@
 
 #carrito{
     width: 90%;
-   
+    
+.row{
+    width:auto
+}
+
 .contenedorProducto{
 padding: 20px 50px;
 margin: 10px auto;
 border: 2px solid;
 display: flex;
-flex-direction: row;
 justify-content: space-between;
 color: black;
 
@@ -28,7 +31,7 @@ flex-direction: row;
 
 .contenedorPrice h3{
    font-size: bold;
-  
+
 }
 
 .contenedorBotones__eliminar {
@@ -43,6 +46,9 @@ flex-direction: row;
 .contenedorBotones{
 display: flex;
 flex-direction: column;
+justify-content: space-between;
+min-height: 70px;
+
 }
 
 #carrito .contenedorBotones button{
