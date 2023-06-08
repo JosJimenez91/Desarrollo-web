@@ -1,5 +1,5 @@
 /*MEDIA QUERYS*/
-    @media (max-width: 950px) and (max-width: 1350px) {
+    @media (max-width: 950px)and (max-width:1300px){
 
         .search input{
             width: 150px;
@@ -28,12 +28,14 @@
     
         .nav-item-with-subpages{
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             gap: 20px;
         }
     
         .subpages {
             position: relative;
+            flex-direction: column;
+
         }
         .search{
             position: initial;
@@ -43,21 +45,12 @@
             
         }        
 
+
      /* Ajustes para el carrito */
 
-.contenedorProducto{
+.contenedorProducto {
     display: flex;
     flex-direction: column
     }
-
-
-
-    /* Ajustes para el menu formulario */
-
-.formulario{
-    display: flex;
-    flex-direction: column;
-}
-}
-
+    }
 

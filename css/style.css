@@ -278,16 +278,14 @@ header nav .search {
   padding-top: 40px;
 }
 .container #carrito {
-  width: 90%;
-}
-.container #carrito .row {
-  width: auto;
+  width: 70%;
 }
 .container #carrito .contenedorProducto {
-  padding: 20px 50px;
+  padding: 30px 70px;
   margin: 10px auto;
   border: 2px solid;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   color: black;
 }
@@ -297,7 +295,8 @@ header nav .search {
   display: inline-block;
   vertical-align: middle;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .container #carrito .contenedorProducto .contenedorPrice h3 {
   font-size: bold;
@@ -326,7 +325,7 @@ header nav .search {
 }
 .container aside {
   grid-area: precio;
-  width: 90%;
+  width: 70%;
   margin: 10px 0;
   border: 2px solid;
 }
@@ -354,25 +353,30 @@ header nav .search {
   line-height: 47px;
 }
 
-.formulario {
-  align-content: center;
-  margin-top: 2vh;
-  width: 600px;
-  padding: 20px;
-  background-color: #ece9e9;
-  border-radius: 5px;
+.consulta {
+  margin-top: 3vh;
+  margin-left: 200px;
 }
-.formulario input {
-  width: 520px;
-}
-.formulario textarea {
-  width: 560px;
-}
-.formulario .contacto {
-  text-align: center;
+.consulta .contacto {
+  margin-left: 90px;
   color: rgb(0, 0, 0);
 }
-.formulario .button {
+.consulta .formulario {
+  margin-top: 8vh;
+  width: 600px;
+  padding: 20px;
+  background-color: #e1dfdf;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: bold;
+}
+.consulta .formulario input {
+  width: 520px;
+}
+.consulta .formulario textarea {
+  width: 560px;
+}
+.consulta .formulario .button {
   display: block;
   width: 100%;
   padding: 10px;
@@ -384,7 +388,7 @@ header nav .search {
 }
 
 /*MEDIA QUERYS*/
-@media (max-width: 950px) and (max-width: 1350px) {
+@media (max-width: 950px) and (max-width: 1300px) {
   .search input {
     width: 150px;
   }
@@ -408,11 +412,12 @@ header nav .search {
   }
   .nav-item-with-subpages {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
   }
   .subpages {
     position: relative;
+    flex-direction: column;
   }
   .search {
     position: initial;
@@ -422,11 +427,6 @@ header nav .search {
   }
   /* Ajustes para el carrito */
   .contenedorProducto {
-    display: flex;
-    flex-direction: column;
-  }
-  /* Ajustes para el menu formulario */
-  .formulario {
     display: flex;
     flex-direction: column;
   }

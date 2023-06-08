@@ -3,30 +3,29 @@
     padding-top: 40px;
 
 #carrito{
-    width: 90%;
+    width: 70%;
     
-.row{
-    width:auto
-}
-
+    
 .contenedorProducto{
-padding: 20px 50px;
+padding: 30px 70px;
 margin: 10px auto;
 border: 2px solid;
 display: flex;
+flex-direction: column;
 justify-content: space-between;
 color: black;
 
 
 
 .contenedorProducto__img {
+        
 width: 100px;
 height: 100px;
 display: inline-block;
 vertical-align: middle;       
 display: flex;
-flex-direction: row;
-
+flex-direction: column;
+justify-content: space-evenly;
 }
 
 
@@ -66,15 +65,15 @@ min-height: 70px;
     }
 aside {
     grid-area: precio;
-    width: 90%;
+    width: 70%;
     margin: 10px 0;
     border: 2px solid;
 
-   .total{
+.total{
     color: rgb(219, 28, 28);
     font-size: larger;
     font-weight: bolder;
-   }
+}
     
 .card{
     padding: 20px;

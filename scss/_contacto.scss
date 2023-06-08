@@ -1,22 +1,29 @@
+.consulta{
+margin-top: 3vh;
+margin-left: 200px;
 
+.contacto {
+  margin-left: 90px;
+  color: rgb(0, 0, 0); 
+  }
 
 .formulario {
-        align-content: center;
-        margin-top: 2vh;
+        
+        margin-top: 8vh;
         width: 600px;
         padding: 20px;
-        background-color: #ece9e9;
+        background-color: #e1dfdf;
         border-radius: 5px;
+        font-size: larger;
+        font-weight: bold;
+
 input{
   width: 520px;
 }
 textarea{
   width: 560px;
 }
-.contacto {
-text-align: center; 
-color: rgb(0, 0, 0); 
-}
+
 
 
 .button {
@@ -31,4 +38,6 @@ color: rgb(0, 0, 0);
     
   }
 }
+}
+
 
