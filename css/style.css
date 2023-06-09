@@ -354,14 +354,13 @@ header nav .search {
 }
 
 .consulta {
-  margin-top: 3vh;
-  margin-left: 200px;
+  text-align: left;
 }
 .consulta .contacto {
-  margin-left: 90px;
   color: rgb(0, 0, 0);
 }
 .consulta .formulario {
+  text-align: center;
   margin-top: 8vh;
   width: 600px;
   padding: 20px;
@@ -417,6 +416,7 @@ header nav .search {
   }
   .subpages {
     position: relative;
+    display: flex;
     flex-direction: column;
   }
   .search {
