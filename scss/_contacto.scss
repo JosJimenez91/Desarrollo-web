@@ -8,7 +8,7 @@ margin-bottom: 5vh;
 .formulario {
         text-align: center;
         margin-top: 8vh;
-        width: 600px;
+        max-width : 600px;
         padding: 20px;
         background-color: #e1dfdf;
         border-radius: 5px;
@@ -16,10 +16,10 @@ margin-bottom: 5vh;
         font-weight: bold;
 
 input{
-  width: 520px;
+ max-width: 520px;
 }
 textarea{
-  width: 560px;
+  max-width: 560px;
 }
 
 .button {

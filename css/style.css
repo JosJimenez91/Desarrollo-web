@@ -362,7 +362,7 @@ header nav .search {
 .consulta .formulario {
   text-align: center;
   margin-top: 8vh;
-  width: 600px;
+  max-width: 600px;
   padding: 20px;
   background-color: #e1dfdf;
   border-radius: 5px;
@@ -370,10 +370,10 @@ header nav .search {
   font-weight: bold;
 }
 .consulta .formulario input {
-  width: 520px;
+  max-width: 520px;
 }
 .consulta .formulario textarea {
-  width: 560px;
+  max-width: 560px;
 }
 .consulta .formulario .button {
   display: block;
@@ -429,14 +429,5 @@ header nav .search {
   .contenedorProducto {
     display: flex;
     flex-direction: column;
-  }
-  .formulario {
-    width: auto;
-  }
-  .formulario .mail {
-    width: auto;
-  }
-  .formulario textarea {
-    width: auto;
   }
 }/*# sourceMappingURL=style.css.map */
