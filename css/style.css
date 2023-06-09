@@ -355,9 +355,9 @@ header nav .search {
 
 .consulta {
   text-align: left;
-}
-.consulta .contacto {
-  color: rgb(0, 0, 0);
+  color: black;
+  margin-top: 1vh;
+  margin-bottom: 5vh;
 }
 .consulta .formulario {
   text-align: center;
@@ -429,5 +429,14 @@ header nav .search {
   .contenedorProducto {
     display: flex;
     flex-direction: column;
+  }
+  .formulario {
+    width: auto;
+  }
+  .formulario .mail {
+    width: auto;
+  }
+  .formulario textarea {
+    width: auto;
   }
 }/*# sourceMappingURL=style.css.map */
